@@ -1,0 +1,45 @@
+hotelBookings {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #eef6f9;
+    padding: 20px;
+}
+
+heading {
+    display: block;
+    font-size: 26px;
+    text-align: center;
+    color: #0077b6;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #023e8a;
+    padding-bottom: 10px;
+}
+
+hotel {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #03045e;
+}
+
+location, rating, pricePerNight, availability {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+}
+
+availability {
+    font-weight: bold;
+    color: #007f5f;
+}

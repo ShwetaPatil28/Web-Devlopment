@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="hotel-style.css"?>
+
+<hotelBookings>
+    <heading>Available Hotels - Summer 2025</heading>
+
+    <hotel>
+        <name>Grand Palace Hotel</name>
+        <location>New York</location>
+        <rating>5</rating>
+        <pricePerNight>$250</pricePerNight>
+        <availability>Available</availability>
+    </hotel>
+
+    <hotel>
+        <name>Sea Breeze Resort</name>
+        <location>Miami Beach</location>
+        <rating>4</rating>
+        <pricePerNight>$180</pricePerNight>
+        <availability>Few Rooms Left</availability>
+    </hotel>
+
+    <hotel>
+        <name>Lakeview Lodge</name>
+        <location>Lake Tahoe</location>
+        <rating>3</rating>
+        <pricePerNight>$120</pricePerNight>
+        <availability>Sold Out</availability>
+    </hotel>
+
+    <hotel>
+        <name>Mountain Escape Inn</name>
+        <location>Denver</location>
+        <rating>4</rating>
+        <pricePerNight>$150</pricePerNight>
+        <availability>Available</availability>
+    </hotel>
+</hotelBookings>
