@@ -2,112 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sakshi's Assignments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignments Hub</title>
   <style>
-    /* Body styling with fast animated background */
     body {
       margin: 0;
+      padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #333;
+      background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* New vibrant gradient */
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 40px 20px;
       min-height: 100vh;
-      background: linear-gradient(45deg, #e74c3c, #8e44ad, #3498db, #f39c12);
-      background-size: 400% 400%;
-      animation: gradientAnimation 5s ease infinite; /* Faster animation speed */
+      color: #fff;
     }
 
-    /* Keyframes for the faster background animation */
-    @keyframes gradientAnimation {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
     }
 
-    /* Heading styling */
     h1 {
-      font-size: 2.5em;
-      color: #ffffff;
-      margin-bottom: 40px;
-      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
     }
 
-    /* Grid layout for the cards */
-    .grid {
+    .btn-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      width: 100%;
-      max-width: 900px;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
     }
 
-    /* Card styling */
-    .card {
-      background: #ffffff;
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: box-shadow 0.3s ease, transform 0.3s ease;
-    }
-
-    /* Card hover effect */
-    .card:hover {
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      transform: translateY(-5px);
-    }
-
-    /* Title inside the cards */
-    .card-title {
-      font-size: 1.3em;
-      font-weight: 600;
-      margin-bottom: 15px;
-      color: #2c3e50;
-    }
-
-    /* Link styling inside the cards */
-    .card a {
-      display: inline-block;
-      margin-top: 10px;
-      font-size: 1em;
-      color: #f39c12; /* Bright orange accent */
+    .btn {
+      background: #fff;
+      color: #2575fc;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.3s ease;
       text-decoration: none;
-      font-weight: 500;
-      transition: color 0.2s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
-    /* Hover effect on links */
-    .card a:hover {
-      color: #e67e22; /* Darker orange on hover */
-    }
-
-    /* Responsive adjustments for smaller screens */
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2em;
-      }
+    .btn:hover {
+      transform: translateY(-3px);
+      background: #e0e0e0;
     }
   </style>
 </head>
 <body>
-  <h1>Web Development Assignments</h1>
-  <div class="grid">
-    <div class="card">
-      <div class="card-title">HTML Assignments</div>
-      <a href="HTML/index.html">View HTML</a>
-    </div>
-    <div class="card">
-      <div class="card-title">CSS Assignments</div>
-      <a href="CSS/index.html">View CSS</a>
-    </div>
-    <div class="card">
-      <div class="card-title">XML Assignments</div>
-      <a href="XML_CSS/XML_index.html">View XML</a>
-    </div>
+  <div class="container">
+    <h1>HTML Assignments</h1>
+    <div class="btn-grid">
+        <a class="btn" href="assign1.html">Assignment 1</a>
+      <a class="btn" href="assign2.html">Assignment 2</a>
+      <a class="btn" href="assign3.html">Assignment 3</a>
+      <a class="btn" href="assign4.html">Assignment 4</a>
+ <a class="btn" href="assign5.html">Assignment 5</a>
+ <a class="btn" href="assign6.html">Assignment 6</a>
+ <a class="btn" href="assign7.html">Assignment 7</a>
+ <a class="btn" href="assign8.html">Assignment 8</a>
+ <a class="btn" href="Assign9.html">Assignment 9</a>
+ <a class="btn" href="assign10.html">Assignment 10</a>
+
   </div>
 </body>
 </html>
