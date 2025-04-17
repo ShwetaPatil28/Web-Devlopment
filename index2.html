@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff4e50, #f9d423);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+    }
+
+    .btn {
+      background: #fff;
+      color: #ff4e50;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: #ffe8e8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CSS Assignments</h1>
+    <div class="btn-grid">
+     
+      <a class="btn" href="css1external.html">External CSS</a>
+      <a class="btn" href="css2Internal.html">Inline CSS</a>
+      <a class="btn" href="css3inline.html">Internal CSS</a>
+      <a class="btn" href="css4background.html">background</a>
+      <a class="btn" href="css5animatedbg.html">animated</a>
+      <a class="btn" href="Resume.html">Resume</a>
+      <a class="btn" href="selectors.html">selectors</a>
+       <a class="btn" href="timetablecss.html">timetable</a>
+      <a class="btn" href="website.html">website</a>
+
+    </div>
+  </div>
+</body>
+</html>
