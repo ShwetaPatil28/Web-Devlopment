@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Table</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f4f4f4;
+      color: #2f3640;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2, h3 {
+      text-align: center;
+      margin: 6px 0;
+    }
+
+    h2 {
+      color: #2f3640;
+    }
+
+    h3 {
+      color: #636e72;
+      font-weight: normal;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    }
+
+    caption {
+      font-size: 1.4em;
+      font-weight: 600;
+      color: #2f3640;
+      padding: 10px 0;
+    }
+
+    thead th {
+      background-color: #dcdde1;
+      color: #2f3640;
+      padding: 14px;
+      font-size: 1em;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      text-align: center;
+      border: 1px solid #e6e6e6;
+      transition: background 0.3s ease;
+    }
+
+    tbody tr:hover {
+      background-color: #f9f9f9;
+    }
+
+    .lab {
+      background-color: #ecf0f1;
+      font-weight: 500;
+    }
+
+    .training {
+      background-color: #e6e6e6;
+      font-weight: 500;
+    }
+
+    .break, .class {
+      background-color: #f0f0f0;
+      font-weight: 500;
+    }
+
+.photo {
+  text-align: center;
+  margin: 15px 0;
+}
+    td[colspan="2"], td[rowspan="6"] {
+      font-weight: bold;
+      background-color: #f7f7f7;
+    }
+
+    @media screen and (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        font-size: 0.85em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>SYB 68</h2>
+  <h2>Assignment 5: Table in HTML</h2>
+  <h2>D. Y. Patil College of Engineering & Technology, Kolhapur</h2>
+  <h3>Department of Computer Science & Engineering</h3>
+<div class="photo">
+  <img src="https://media.licdn.com/dms/image/v2/C4D0BAQES1BSiZDSKRg/company-logo_200_200/company-logo_200_200/0/1642422410138/d_y_patil_college_of_engineering__technology_kasaba_bawada_logo?e=2147483647&v=beta&t=M3dkm6QQGxgV_Ny_4TljMxG8L3IXWauB3jObNJOm1Rs" 
+       alt="College Logo" 
+       height="100" width="100" />
+</div>  <h3>TimeTable 2024–2025 (SEM-IV)</h3>
+
+  <table>
+    <caption>Time Table</caption>
+    <thead>
+      <tr>
+        <th>Day / Time</th>
+        <th>9:00 to 11:00</th>
+        <th>11:00 to 11:15</th>
+        <th>11:15 to 12:15</th>
+        <th>12:15 to 1:15</th>
+        <th>1:15 to 2:00</th>
+        <th>2:00 to 3:00</th>
+        <th>3:00 to 4:00</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Monday</strong></td>
+        <td class="lab">S3-TPMS(PRP)</td>
+        <td rowspan="6" class="break">BREAK</td>
+        <td class="lab">DS</td>
+        <td class="lab">MDM</td>
+        <td rowspan="6" class="class">LUNCH</td>
+        <td class="lab">AT</td>
+        <td class="lab">ES</td>
+      </tr>
+      <tr>
+        <td><strong>Tuesday</strong></td>
+        <td class="lab">S3-AOOC(KBK)</td>
+        <td class="lab">AT</td>
+        <td class="lab">DS</td>
+        <td class="lab">ES</td>
+        <td class="lab">ES</td>
+      </tr>
+      <tr>
+        <td><strong>Wednesday</strong></td>
+        <td class="lab">S3-DS(SSKokate)</td>
+        <td class="lab">AOOC</td>
+        <td class="lab">MDM</td>
+        <td class="training">DEPT ACTIVITY</td>
+        <td class="training">DEPT ACTIVITY</td>
+      </tr>
+      <tr>
+        <td><strong>Thursday</strong></td>
+        <td class="lab">S3-WD(SSKORE)</td>
+        <td class="lab">AOOC(Lab 2)</td>
+        <td class="lab">DS</td>
+        <td class="lab">AT</td>
+        <td class="lab">OEC-II</td>
+      </tr>
+      <tr>
+        <td><strong>Friday</strong></td>
+        <td class="lab">S3-TTL(IPT)</td>
+        <td colspan="2" class="lab">S3-TTL(AAS)</td>
+        <td class="lab">TPMS</td>
+        <td class="lab">OEC-II</td>
+      </tr>
+      <tr>
+        <td><strong>Saturday</strong></td>
+        <td class="class">LL</td>
+        <td class="lab">LL(L)</td>
+        <td class="lab">LL(L)</td>
+        <td class="training">DEPT ACTIVITY</td>
+        <td class="training">DEPT ACTIVITY</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

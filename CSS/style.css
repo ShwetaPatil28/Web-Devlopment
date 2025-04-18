@@ -1,0 +1,194 @@
+/* ==========================
+   Universal Selector
+=========================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================
+   Body & General Styling
+=========================== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #2d3436;
+  line-height: 1.6;
+  padding: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  color: #34495e;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  text-align: center;
+  animation: fadeIn 2s ease-out;
+}
+
+/* ==========================
+   Article Container & Styling
+=========================== */
+.article {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#featured {
+  border-left: 5px solid #6c5ce7;
+  padding-left: 15px;
+  background-color: #f1f8ff;
+}
+
+/* ==========================
+   Header Styles
+=========================== */
+h2, h3 {
+  color: #0984e3;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid #0984e3;
+  padding-bottom: 5px;
+}
+
+/* ==========================
+   Paragraphs & Links
+=========================== */
+p {
+  margin: 12px 0;
+}
+
+p:first-letter {
+  font-size: 2em;
+  color: #e17055;
+  font-weight: bold;
+}
+
+a {
+  color: #0984e3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #d63031;
+  text-decoration: underline;
+}
+
+/* ==========================
+   Lists & List Items
+=========================== */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 1.1em;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #e6f7ff;
+  border-left: 4px solid #0984e3;
+  transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #dfe6e9;
+  padding-left: 15px;
+}
+
+ul > li:first-child {
+  font-weight: bold;
+  color: #6c5ce7;
+}
+
+/* ==========================
+   Input & Form Styles
+=========================== */
+input[type="text"], input[type="email"], input[type="file"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+  border-color: #0984e3;
+  outline: none;
+}
+
+/* ==========================
+   Button Styles
+=========================== */
+input[type="submit"], input[type="reset"] {
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  background-color: #0984e3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #6c5ce7;
+  transform: scale(1.05);
+}
+
+/* ==========================
+   Media Queries (Responsive Design)
+=========================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .article {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2, h3 {
+    font-size: 1.2em;
+  }
+
+  ul li {
+    font-size: 1em;
+  }
+}
+
+/* ==========================
+   Animations & Keyframes
+=========================== */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
