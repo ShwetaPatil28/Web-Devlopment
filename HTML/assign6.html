@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .lab {
+            font-size: smaller;
+        }
+        .break {
+            background-color: #ffffcc; 
+        }
+        .training {
+            background-color: #c0c0c0; 
+        }
+        .double-row {
+            display: flex;
+            flex-direction: column;
+            height: 100%; 
+        }
+        .double-row > div {
+            flex: 1; 
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            border-bottom: 1px solid black; 
+        }
+        .double-row > div:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+     <h2>SYB 68</h2>
+    <h2>Assignment 5:Table in html</h2>
+    <h2>D. Y. Patil College of Engineering & Technology, Kolhapur</h2>
+    <h3>Department of Computer Science & Engineering</h3>
+    <h3>TimeTable 2024-2025 (SEM-IV)</h3>
+   
+
+    <table>
+        <caption>Time Table</caption>
+        <thead>
+            <tr>
+                <th>Day / Time</th>
+                <th>9:00 to 11:00</th>
+                <th>11:00 to 11:15</th>
+                <th>11:15 to 12:15</th>
+                <th>12:15 to 1:15</th>
+                <th>1:15 to 2:00</th>
+                <th>2:00 to 3:00</th>
+                <th>3:00 to 4:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Monday</strong></td>
+                <td class="lab">S3-TPMS(PRP)</td>
+                <td rowspan="6"> BREAK</td>
+                <td class="lab">DS</td>
+                <td class="lab">MDM</td>
+                <td rowspan="6"> LUNCH BREAK</td>
+                <td class="lab">AT</td>
+                <td class="lab">ES</td>
+            </tr>
+            <tr>
+                <td><strong>Tuesday</strong></td>
+                <td class="lab">S3-AOOC(KBK)</td>
+               
+                <td class="lab">AT</td>
+                <td class="lab">DS</td>
+                <td class="lab">ES</td>
+                <td class="lab">ES</td>
+                   
+               
+            </tr>
+            <tr>
+                <td><strong>Wednesday</strong></td>
+                <td class="lab">S3-DS(SSKokate)</td>
+               
+                <td class="lab">AOOC</td>
+                <td class="lab">MDM</td>
+                 <td class="lab">DEPT ACTIVITY</td>
+                <td class="lab">DEPT ACTIVITY</td>
+                    
+            </tr>
+            <tr>
+                <td><strong>Thursday</strong></td>
+                <td class="lab">S3-WD(SSKORE)</td>
+              
+                <td class="lab">AOOC(Lab 2)</td>
+                <td class="lab">DS</td>
+                <td class="lab">AT</td>
+                <td class="lab">OEC-II</td>
+            </tr>
+            <tr>
+                <td><strong>Friday</strong></td>
+                <td class="lab">S3-TTL(IPT)</td>
+                <td colspan="2">S3-TTL(AAS)</td>
+                <td class="lab">TPMS</td>
+                <td class="lab">OEC-II</td>
+
+            </tr>
+            <tr>
+                <td><strong>Saturday</strong></td>
+                 <td colspan="1"> LL </td>
+                <td class="lab">LL(L)</td>
+                <td class="lab">LL(L)</td>
+                <td class="class">DEPT ACTIVITY</td>
+                 <td class="class">DEPT ACTIVITY</td>
+            </tr>
+        </tbody>
+    </table>
+
+   
