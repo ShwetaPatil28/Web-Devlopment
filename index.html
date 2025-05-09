@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHWETA's Assignments</title>
+  <style>
+    /* Body styling with fast animated background */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+      background: linear-gradient(45deg, #e74c3c, #8e44ad, #3498db, #f39c12);
+      background-size: 400% 400%;
+      animation: gradientAnimation 5s ease infinite; /* Faster animation speed */
+    }
+
+    /* Keyframes for the faster background animation */
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Heading styling */
+    h1 {
+      font-size: 2.5em;
+      color: #ffffff;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    /* Information section styling */
+    .info {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .info div {
+      margin: 10px 0;
+      font-size: 1.2em;
+      color: #2c3e50;
+    }
+
+    /* Grid layout for the cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    /* Card styling */
+    .card {
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    /* Card hover effect */
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+
+    /* Title inside the cards */
+    .card-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #2c3e50;
+    }
+
+    /* Link styling inside the cards */
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 1em;
+      color: #f39c12; /* Bright orange accent */
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    /* Hover effect on links */
+    .card a:hover {
+      color: #e67e22; /* Darker orange on hover */
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+ <h1>Web Development Assignments</h1>
+  <div class="info">
+    <div>Name: Shweta Shivaji Patil</div>
+    <div>Roll No: 68</div>
+    <div>Batch:S3</div>
+    <div>Class:SYB</div>
+  </div>
+
+ 
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">HTML Assignments</div>
+      <a href="HTML/index1.html">View HTML</a>
+    </div>
+    <div class="card">
+      <div class="card-title">CSS Assignments</div>
+      <a href="CSS/index2.html">View CSS</a>
+    </div>
+    <div class="card">
+      <div class="card-title">XML Assignments</div>
+      <a href="XML/index.html">View XML</a>
+    </div>
+  </div>
+</body>
+</html>
