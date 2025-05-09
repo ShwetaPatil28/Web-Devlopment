@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XML using XSL Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+      background-size: cover;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 25px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #2c3e50;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #6a1b9a;
+      font-weight: 500;
+      font-size: 1em;
+      transition: color 0.2s;
+    }
+
+    .card a:hover {
+      color: #4a148c;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>XML USING CSS Assignments</h1>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Assignment 1:COURSES</div>
+      <a href="courses.xml" target="_blank">View Assignment</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Assignment 2: HOTELS</div>
+      <a href="hotels.xml" target="_blank">View Assignment</a>
+    </div>
+ <div class="card">
+      <div class="card-title">Assignment 3:MOVIES</div>
+      <a href="movies.xml" target="_blank">View Assignment</a>
+    </div>
+ <div class="card">
+      <div class="card-title">Assignment 3:STUDENTS</div>
+      <a href="students.xml" target="_blank">View Assignment</a>
+    </div>
+
+
+   
+  </div>
+</body>
+</html>

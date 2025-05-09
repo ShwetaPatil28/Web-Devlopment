@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<school>
+    <student>
+        <name>Alice</name>
+        <grade>88</grade>
+    </student>
+    <student>
+        <name>Bob</name>
+        <grade>92</grade>
+    </student>
+    <student>
+        <name>Charlie</name>
+        <grade>85</grade>
+    </student>
+</school>

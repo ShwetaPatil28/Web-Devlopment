@@ -1,0 +1,20 @@
+hotels {
+    color: white;
+    background-color: pink;
+    width: 100%;
+}
+
+heading {
+    color: green;
+    font-size: 40px;
+    background-color: powderblue;
+}
+
+heading, name, location, rating, price, availability {
+    display: inline;
+}
+
+name {
+    font-size: 25px;
+    font-weight: bold;
+}

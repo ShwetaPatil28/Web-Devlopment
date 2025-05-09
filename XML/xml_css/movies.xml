@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="movie-style.css"?>
+
+<moviedb>
+    <heading>Top Rated Movies</heading>
+
+    <movie>
+        <title>Title -: The Shawshank Redemption</title>
+        <director>Director -: Frank Darabont</director>
+        <genre>Genre -: Drama</genre>
+        <year>Year -: 1994</year>
+        <rating>Rating -: 9.3</rating>
+    </movie>
+
+    <movie>
+        <title>Title -: The Dark Knight</title>
+        <director>Director -: Christopher Nolan</director>
+        <genre>Genre -: Action</genre>
+        <year>Year -: 2008</year>
+        <rating>Rating -: 9.0</rating>
+    </movie>
+
+    <movie>
+        <title>Title -: Inception</title>
+        <director>Director -: Christopher Nolan</director>
+        <genre>Genre -: Sci-Fi</genre>
+        <year>Year -: 2010</year>
+        <rating>Rating -: 8.8</rating>
+    </movie>
+
+    <movie>
+        <title>Title -: Forrest Gump</title>
+        <director>Director -: Robert Zemeckis</director>
+        <genre>Genre -: Drama</genre>
+        <year>Year -: 1994</year>
+        <rating>Rating -: 8.8</rating>
+    </movie>
+
+    <movie>
+        <title>Title -: Interstellar</title>
+        <director>Director -: Christopher Nolan</director>
+        <genre>Genre -: Adventure</genre>
+        <year>Year -: 2014</year>
+        <rating>Rating -: 8.6</rating>
+    </movie>
+</moviedb>

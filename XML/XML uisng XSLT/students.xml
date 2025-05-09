@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+  <student>
+    <name>Alice Johnson</name>
+    <grade>10</grade>
+    <marks>88</marks>
+  </student>
+  <student>
+    <name>Brian Smith</name>
+    <grade>11</grade>
+    <marks>92</marks>
+  </student>
+  <student>
+    <name>Carol Lee</name>
+    <grade>10</grade>
+    <marks>79</marks>
+  </student>
+</school>

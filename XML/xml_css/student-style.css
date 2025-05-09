@@ -1,0 +1,29 @@
+students {
+    display: block;
+    font-family: Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+heading {
+    display: block;
+    font-size: 22px;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+student {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #bbb;
+}
+
+name, roll, subject, marks {
+    display: block;
+    margin: 4px 0;
+}

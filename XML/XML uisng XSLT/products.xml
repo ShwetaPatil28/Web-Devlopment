@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <product id="p001">
+    <name>Smartphone</name>
+    <category>Electronics</category>
+    <price>599.99</price>
+    <stock>150</stock>
+  </product>
+  <product id="p002">
+    <name>Laptop</name>
+    <category>Electronics</category>
+    <price>999.99</price>
+    <stock>75</stock>
+  </product>
+  <product id="p003">
+    <name>Headphones</name>
+    <category>Audio</category>
+    <price>89.99</price>
+    <stock>200</stock>
+  </product>
+</catalog>
